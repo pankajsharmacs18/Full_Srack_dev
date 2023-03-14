@@ -1,0 +1,7 @@
+num1 = int(input("Enter 1st number "))
+num2 = int(input("Enter 2nd number "))
+print("sum of {0} and {1} is : {2}".format(num1, num2, (num1 + num2)))
+print("substration  of {0} and {1} is : {2}".format(num1, num2, (num1 - num2)))
+print("div of {0} and {1} is : {2}".format(num1, num2, (num1 / num2)))
+print("mul of {0} and {1} is : {2}".format(num1, num2, (num1 * num2)))
+print("mode of {0} and {1} is : {2}".format(num1, num2, (num1 % num2)))
