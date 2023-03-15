@@ -2,8 +2,7 @@ def lcmCal(n1, n2, larger):
     if larger % n1 == 0 and larger % n2 == 0:
         return larger
     else:
-        print(larger)
-        lcmCal(n1, n2, larger + 1)
+        return lcmCal(n1, n2, larger + 1)
 
 
 num1 = int(input("Enter 1st number "))
